@@ -18,7 +18,7 @@ be described using the extended regular expression indicating the
 intersection of words containing *a* and words containing *b*:
 
 $$
-\{a,b\}^{\*}a\{a,b\}^{\*} \wedge \{a,b\}^{\*}b\{a,b\}^{\*}
+\{a,b\}^{\ast}a\{a,b\}^{\ast} \wedge \{a,b\}^{\ast}b\{a,b\}^{\ast}
 $$
 
 This expression can be presented to INR in the following form:
