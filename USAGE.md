@@ -18,7 +18,7 @@ be described using the extended regular expression indicating the
 intersection of words containing *a* and words containing *b*:
 
 $$
-\\{ a,b \\}^\ast a\\{ a,b \\}^\ast \wedge \\{ a,b \\}^\ast b\\{ a,b \\}^\ast
+\\{ a,b \\}^* a\\{ a,b \\}^* \wedge \\{ a,b \\}^* b\\{ a,b \\}^*
 $$
 
 This expression can be presented to INR in the following form:
@@ -89,11 +89,11 @@ terminating when it reaches a preset limit.
 
 Another interactive use for INR involves testing whether two regular
 sets are the same. For example consider the set of all words over the
-alphabet $\{a,b\}^*$ that are not either all *a*'s or all *b*'s. This
+alphabet $\\{ a,b \\}^*$ that are not either all *a*'s or all *b*'s. This
 can be denoted using the extended regular expression:
 
 $$
-\{a,b\}^* - ( \{a\}^* \cup \{b\}^* )
+\\{ a,b \\}^* - ( \\{ a \\}^* \cup \\{ b \\}^* )
 $$
 
 and indicated to INR as:
