@@ -18,7 +18,7 @@ be described using the extended regular expression indicating the
 intersection of words containing *a* and words containing *b*:
 
 $$
-\{a,b\}^*a\{a,b\}^* \wedge \{a,b\}^*b\{a,b\}^*.
+\{a,b\}^\*a\{a,b\}^\* \wedge \{a,b\}^\*b\{a,b\}^\*.
 $$
 
 This expression can be presented to INR in the following form:
@@ -93,7 +93,7 @@ alphabet $\{a,b\}^*$ that are not either all *a*'s or all *b*'s. This
 can be denoted using the extended regular expression:
 
 $$
-\{a,b\}^* - ( \{a\}^* \cup \{b\}^* )$
+\{a,b\}^* - ( \{a\}^* \cup \{b\}^* )
 $$
 
 and indicated to INR as:
