@@ -12,13 +12,13 @@ for a number of other purposes.
 The program operates in a traditional read/evaluate/print mode; that is,
 it repeatedly reads an expression from the input stream, computes the
 automaton required, and displays a result. For example, if we wish to
-find the minimized automaton over the alphabet $\{ a,b \}$ that recognizes
+find the minimized automaton over the alphabet $\\{ a,b \\}$ that recognizes
 words that contain at least one "*a*" and at least one "*b*". This can
 be described using the extended regular expression indicating the
 intersection of words containing *a* and words containing *b*:
 
 $$
-\{ a,b \}^\ast a\{ a,b \}^\ast \wedge \{ a,b \}^\ast b\{ a,b \}^\ast
+\\{ a,b \\}^\ast a\\{ a,b \\}^\ast \wedge \\{ a,b \\}^\ast b\\{ a,b \\}^\ast
 $$
 
 This expression can be presented to INR in the following form:
